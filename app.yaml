@@ -1,11 +1,3 @@
 runtime: nodejs16
-env: standard
-instance_class: F1
-automatic_scaling:
-  min_idle_instances: automatic
-  max_idle_instances: automatic
-  min_pending_latency: automatic
-  max_pending_latency: automatic
-env_variables:
-  MONGO_URL: "mongodb+srv://sandip:Darsheel2021@cluster0.1hxvh.mongodb.net/?retryWrites=true&w=majority"
-  PORT: 30000
+# env_variables:
+#   MONGO_URL: "mongodb+srv://sandip:Darsheel2021@cluster0.1hxvh.mongodb.net/?retryWrites=true&w=majority"

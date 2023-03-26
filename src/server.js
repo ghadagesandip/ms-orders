@@ -1,9 +1,9 @@
 import app from './app.js';
 import mongoose from 'mongoose';
+import properties from './properties.js';
 
-const port = process.env.PORT
-const MONGO_URL= process.env.MONGO_URL;
-
+const port = properties.PORT
+const MONGO_URL= properties.MONGO_URL;
 const startServer = async function(){
     try{
         await mongoose.connect(MONGO_URL, {
