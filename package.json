@@ -1,10 +1,12 @@
 {
   "name": "unit_testing",
   "version": "1.0.0",
+  "private":true,
   "description": "",
-  "main": "index.js",
+  "main": "src/server.js",
   "type": "module",
   "scripts": {
+    "prestart": "node -v",
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
     "test": " nyc mocha test/**/*.js ",
