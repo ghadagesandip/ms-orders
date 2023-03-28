@@ -6,7 +6,7 @@
   "main": "src/server.js",
   "type": "module",
   "scripts": {
-    "prestart": "node -v",
+    "prestart": "node src/load.js",
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
     "test": " nyc mocha test/**/*.js ",

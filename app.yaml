@@ -1,3 +1,2 @@
 runtime: nodejs16
-# env_variables:
-#   MONGO_URL: "mongodb+srv://sandip:Darsheel2021@cluster0.1hxvh.mongodb.net/?retryWrites=true&w=majority"
+env: standard

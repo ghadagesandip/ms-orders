@@ -1,10 +1,13 @@
 import app from './app.js';
 import mongoose from 'mongoose';
-import properties from './properties.js';
+import { getConfig } from './lib.js';
 
-const port = properties.PORT
-const MONGO_URL= properties.MONGO_URL;
+
+
 const startServer = async function(){
+    const config = await getConfig();
+    const port = process.env.PORT || 3000
+    const MONGO_URL= config.MONGO_URL;
     try{
         await mongoose.connect(MONGO_URL, {
             useNewUrlParser: true,

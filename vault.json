@@ -1,4 +1,1 @@
-{
-    "MONGO_URL": "mongodb+srv://sandip:Darsheel2021@cluster0.1hxvh.mongodb.net/?retryWrites=true&w=majority",
-    "PORT":3000
-}
+{"MONGO_URL":"mongodb+srv://sandip:Darsheel2021@cluster0.1hxvh.mongodb.net/?retryWrites=true&w=majority"}
